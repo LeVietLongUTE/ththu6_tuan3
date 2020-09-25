@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sign_up"
+    >
+
+    <ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/logosignup"
+    android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+    ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="45dp"
+        android:textColor="@color/textcolor1"
+        android:textStyle="bold"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center_horizontal"></TextView>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/Fullname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sign_up1"
+            android:hint="Full name"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textSize="25dp"></EditText>
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sign_up1"
+            android:hint="User name"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textSize="25dp" />
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sign_up1"
+            android:hint="Email"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textSize="25dp"></EditText>
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sign_up1"
+            android:hint="Phone"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textSize="25dp"></EditText>
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sign_up1"
+            android:hint="PassWord"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textSize="25dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/sign_up"
+            android:text="Sign Up"
+            android:textSize="25dp"
+            ></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALREADY HAVE AN ACCOUNT? LOGIN"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lê Việt Long"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            ></TextView>
+    </GridLayout>
+
+</LinearLayout>
